@@ -268,3 +268,45 @@ Example embedding after you add the file:
 ---
 
 **Portfolio note:** This README documents a real personal lab build, with observed results distinguished from recommended settings and future work. It is not a claim of production deployment or security monitoring beyond the data actually ingested.
+
+## Lab Screenshots
+
+### 1. VirtualBox Network Configuration
+![VirtualBox Network Settings](screenshots/01-virtualbox-network-settings.jpg)
+
+Configured VirtualBox networking to support communication between the Windows 11 host and Ubuntu Server virtual machine.
+
+### 2. SSH Connection
+![SSH Connection](screenshots/02-ssh-connection.jpg)
+
+Established remote access to the Ubuntu Linux environment using SSH.
+
+### 3. Splunk Enterprise Download
+![Splunk Download](screenshots/03-splunk-download.jpg)
+
+Prepared the Splunk Enterprise installation package for deployment on Ubuntu Server.
+
+### 4. Splunk Enterprise Installation
+![Splunk Installation](screenshots/04-splunk-installation.jpg)
+
+Installed Splunk Enterprise on Ubuntu Linux and completed the initial configuration and startup process.
+
+### 5. Splunk Web Login
+![Splunk Login](screenshots/05-splunk-login.jpg)
+
+Successfully accessed the Splunk Enterprise web interface through the Windows host browser.
+
+### 6. SPL Search Results
+![Splunk Search Results](screenshots/06-spl-search-results.jpg)
+
+Executed a Splunk Search Processing Language (SPL) query to analyze internal log events and count results by sourcetype.
+
+### 7. Splunk Data Visualization
+![Splunk Visualization](screenshots/07-splunk-visualization.jpg)
+
+Created a column chart to visualize the distribution of events across different sourcetypes.
+
+### 8. Dashboard Creation
+![Dashboard Creation](screenshots/08-dashboard-creation.jpg)
+
+Explored the Splunk dashboard creation workflow to prepare visualizations for ongoing security monitoring.
